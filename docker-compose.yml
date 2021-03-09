@@ -1,0 +1,8 @@
+services:
+
+  web:
+    build: ./web
+    volumes:
+      - ./web:/web
+    stdin_open: true
+    tty: true
